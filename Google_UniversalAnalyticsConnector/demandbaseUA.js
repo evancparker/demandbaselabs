@@ -5,12 +5,6 @@ The contents of this file can be delivered to pages via Google Tag Manager, or i
 /* Add script tags if placing directly in HTML page
 <script type="text/javascript">
 */
-/*Standard Google UA code 
- Note: This standard code from Google may already be in your existing UA deployment */
-ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};(function(f,a,s,t){
-s=a.createElement(f),t=a.getElementsByTagName(f)[0];s.async=true;s.src='//www.google-analytics.com/analytics.js';t.parentNode.insertBefore(s,t)})('script',document);
-ga('create', 'UA-YOUR-PROPERTY-ID');
-/*End  Standard Google UA code */
 
 /*Start Demandbase integration */ 
 var Demandbase = window.Demandbase || {};
@@ -86,10 +80,6 @@ Demandbase.Connectors.Google_UniversalAnalytics = {
 };
 Demandbase.Connectors.Google_UniversalAnalytics.load();
 /* End Demandbase integration */
-
-/* Send track page view call to Universal Analytics 
-   Note: This standard code from Google may already be in your existing UA deployment */
-ga('send', 'pageview');
 
 /* End Demandbase / Google Universal Analytics */
 
